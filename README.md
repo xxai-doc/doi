@@ -7,3 +7,4 @@
 * [फ्रंट-एंड कोड](https://github.com/xxai-art/web)
 * [समग्र रूप कन्नै साइट आस्तै भाशा पैक](https://github.com/xxai-art/web/tree/main/i18n)
 * [लॉगिन मॉड्यूल आस्तै भाशा पैक](https://github.com/wacpkg/user/tree/main/ui.i18n)
+* [वेबसाइट बहुभाषी दस्तावेजीकरण](https://github.com/xxai-doc)
