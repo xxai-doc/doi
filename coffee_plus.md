@@ -1,6 +1,6 @@
 # कॉफी_प्लस
 
-[@w5/coffee_plus](http://npmjs.com/@w5/coffee_plus) , coffeescript सिंटैक्स दे आधार उप्पर किश फीचर जोड़ो, [coffee_plus](./coffee_plus.md) दिक्खो.
+[@w5/coffee_plus](http://npmjs.com/@w5/coffee_plus) , coffeescript वाक्य रचना दे आधार उप्पर किश फीचर जोड़ो, [coffee_plus](./coffee_plus.md) दिक्खो.
 
 ## चर घोषित करना
 
