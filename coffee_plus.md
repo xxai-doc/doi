@@ -2,13 +2,13 @@
 
 [@w5/coffee_plus](http://npmjs.com/@w5/coffee_plus) , coffeescript सिंटैक्स दे आधार उप्पर किश फीचर जोड़ो, [coffee_plus](./coffee_plus.md) दिक्खो.
 
-* चर घोषित करना
+## चर घोषित करना
 
 ```
 + var1, var2
 ```
 
-* घोषणा लेबल
+## घोषणा लेबल
 
 `:$` [svelte](https://svelte.dev/docs#component-format-script-3-$-marks-a-statement-as-reactive) दे कन्नै इस्तेमाल आस्तै ऐ .
 
@@ -90,7 +90,7 @@ $ : (func = function() {
 });
 ```
 
-* जल्दी आयात करना
+## जल्दी आयात करना
 
 ```
 > zx/globals:
