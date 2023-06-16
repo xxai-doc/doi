@@ -1,10 +1,10 @@
 <p align="center"><a href="https://xxai.art"><img src="https://cdn.jsdelivr.net/gh/xxai-art/doc/logo.svg"/></a><br/><a href="https://xxai.art"><img src="https://cdn.jsdelivr.net/gh/xxai-art/doc/xxai.svg"/></a></p><p align="center"><a href="https://github.com/xxai-art/doc#readme"><img alt="I18N" src="https://cdn.jsdelivr.net/gh/wactax/img/t.svg"/></a>　<a href="https://groups.google.com/u/0/g/xxai-art"><img alt="Google Groups" src="https://cdn.jsdelivr.net/gh/wactax/img/g-groups.svg"/></a></p>
 
-# xxAI.art दा
+एह् सलाह दित्ती जंदी ऐ जे पैह् ले nodejs, [direnv](https://direnv.net) , [bun गी](https://github.com/oven-sh/bun) इंस्टॉल करो, ते फिर डायरेक्टरी च दाखल होने दे बाद `direnv allow` ( डायरेक्टरी च दाखल होने दे बाद [.envrc](https://github.com/xxai-art/doc/blob/main/.envrc) स्वतः निष्पादत होई जाग)।
 
-वेबसाइट कोड दा इक हिस्सा ओपन सोर्स ऐ, अनुवाद गी अनुकूल बनाने च मदद करने लेई तुंदा सुआगत ऐ।
+मतलब ऐ: चीनी अनुवाद जापानी, कोरियाई, अंग्रेजी, अंग्रेजी अनुवाद बाकी सारी भाशाएं च। अगर तुस सिर्फ चीनी ते अंग्रेजी दा समर्थन करना चांदे ओ तां तुस सिर्फ `zh: en` लिखी सकदे ओ।
 
-## फ्रंट-एंड कोड
+मतलब ऐ: चीनी अनुवाद जापानी, कोरियाई, अंग्रेजी, अंग्रेजी अनुवाद बाकी सारी भाशाएं च। अगर तुस सिर्फ चीनी ते अंग्रेजी दा समर्थन करना चांदे ओ तां तुस सिर्फ `zh: en` लिखी सकदे ओ।
 
 * [फ्रंट-एंड कोड](https://github.com/xxai-art/web)
 * [समग्र रूप कन्नै साइट आस्तै भाशा पैक](https://github.com/xxai-art/web/tree/main/i18n)
@@ -31,15 +31,15 @@
 
 ### दस्तावेज अनुवाद स्वचालन निर्देश
 
-भंडार [xxai-art/doc](https://github.com/xxai-art/doc) दिक्खो
+कोड भंडार [xxai-art/doc](https://github.com/xxai-art/doc) दिक्खो
 
-सलाह दित्ती जंदी ऐ जे पैह् ले nodejs, [direnv](https://direnv.net) ते [bun गी](https://github.com/oven-sh/bun) इंस्टॉल करो, ते फ्ही डायरेक्टरी च दाखल होने दे बाद `direnv allow` चलाओ.
+एह् सलाह दित्ती जंदी ऐ जे पैह् ले nodejs, [direnv](https://direnv.net) , [bun गी](https://github.com/oven-sh/bun) इंस्टॉल करो, ते फिर डायरेक्टरी च दाखल होने दे बाद `direnv allow` ( डायरेक्टरी च दाखल होने दे बाद [.envrc](https://github.com/xxai-art/doc/blob/main/.envrc) स्वतः निष्पादत होई जाग)।
 
-सैकड़ें भाशाएं च अनुवाद कीते गेदे मते बड्डे गोदामें थमां बचने आस्तै मैं हर भाशा आस्तै इक बक्खरा कोड गोदाम बनाया ते इस गोदाम गी संग्रहीत करने आस्तै इक संगठन बनाया
+सैकड़ें भाशाएं च अनुवाद कीते गेदे बड्डे कोड बेस थमां बचने आस्तै, मैं हर भाशा आस्तै इक बक्खरा कोड बेस बनाया ते कोड बेस गी संग्रहीत करने आस्तै इक संगठन बनाया
 
-वातावरण चर `GITHUB_ACCESS_TOKEN` सेट करने ते फिर [create.github.coffee](https://github.com/xxai-art/doc/blob/main/create.github.coffee) चलाने कन्नै स्वतः गोदाम पैदा होई जाग.
+वातावरण चर `GITHUB_ACCESS_TOKEN` सेट करने ते फ्ही [create.github.coffee](https://github.com/xxai-art/doc/blob/main/create.github.coffee) चलाने कन्नै कोड भंडार स्वतः बनाई जाग.
 
-बेशक, तुस इसगी गोदाम च बी पाई सकदे ओ।
+बेशक, तुस इसगी कोड बेस च बी पाई सकदे ओ।
 
 अनुवाद स्क्रिप्ट संदर्भ [run.sh](https://github.com/xxai-art/doc/blob/main/run.sh)
 
@@ -71,4 +71,8 @@ zh: ja ko en
 export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
 ```
 
-अनुवाद स्क्रिप्ट `.i18n` डायरेक्टरी च इक अनुवाद कैशे पैदा करग, कृपा करियै इसगी `git status` कन्नै जांच करो ते बार-बार अनुवादें थमां बचने आस्तै कोड भंडार च जोड़ो.
+अनुवाद स्क्रिप्ट `.i18n` डायरेक्टरी च इक अनुवादित कैशे पैदा करग, कृपा करियै इसगी `git status` कन्नै जांच करो ते बार-बार अनुवादें थमां बचने आस्तै कोड भंडार च जोड़ो.
+
+कृपा करियै हर बारी जेकर तुस कैशे गी अपडेट करने आस्तै अनुवाद गी संशोधित करदे ओ तां `bunx i18n` चलाओ.
+
+जेकर मूल पाठ ते अनुवाद इक गै समें च संशोधित कीते गेदे न तां कैशे च भ्रम पैदा होई जाग, इसलेई जेकर तुस संशोधित करना चांह् दे ओ तां तुस सिर्फ इक गै संशोधित करी सकदे ओ, ते फ्ही कैशे गी अपडेट करने आस्तै `bunx i18n` चलाओ.
